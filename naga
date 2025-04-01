@@ -1,0 +1,22 @@
+Login into Github account --> New --> (create new repo) 
+Repository Name: ******
+Description : 
+public
+create repository 
+=================================
+Go to our laptop gitbash --> Documents --> create one directory name as yoour wish
+cd your-directory 
+git init 
+git remote add origin git@github.com:rajasekhar82/batch2.git
+git remote -v
+
+ssh-keygen
+cat ~/.ssh/id_rsa.pub
+copy key  and add in the github account --> Go to Right top account profile  
+click on settings --> ssh and GPG keys --> add New SSH key --> name and  paste the key
+ 
+
+==========================
+git config --global user.email "rajasekharn82@gmail.com"
+git config --global user.name "rajasekhar82"
+git config --global --list
